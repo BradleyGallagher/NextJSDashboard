@@ -1,4 +1,5 @@
 import { db } from "@vercel/postgres";
+import React from "react";
 
 const client = await db.connect();
 
